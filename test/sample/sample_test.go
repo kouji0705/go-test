@@ -3,7 +3,7 @@ package sample
 import (
 	"testing"
 
-	pr "github.com/kouji0705/sample_test/product"
+	pr "github.com/kouji0705/go-test/product"
 )
 
 func TestAdd(t *testing.T) {
@@ -19,7 +19,7 @@ func TestAdd(t *testing.T) {
 		{
 			name: "1+1",
 			args: args{1, 1},
-			expected: 22,
+			expected: 2,
 		},
 	}
 
